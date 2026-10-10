@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/task0/">
+    <File Path="tyuiu.cources.programming.interfaces.dll" />
+    <Project Path="tyuiu.denisovld.sprint2.Task0.V20.Lib/tyuiu.denisovld.sprint2.Task0.V20.Lib.csproj" />
+    <Project Path="tyuiu.denisovld.sprint2.Task0.V20.Test/tyuiu.denisovld.sprint2.Task0.V20.Test.csproj" />
+    <Project Path="tyuiu.denisovld.sprint2.Task0.V20/tyuiu.denisovld.sprint2.Task0.V20.csproj" />
+  </Folder>
+</Solution>
