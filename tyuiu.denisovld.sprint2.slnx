@@ -1,8 +1,12 @@
 <Solution>
   <Folder Name="/task0/">
-    <File Path="tyuiu.cources.programming.interfaces.dll" />
     <Project Path="tyuiu.denisovld.sprint2.Task0.V20.Lib/tyuiu.denisovld.sprint2.Task0.V20.Lib.csproj" />
     <Project Path="tyuiu.denisovld.sprint2.Task0.V20.Test/tyuiu.denisovld.sprint2.Task0.V20.Test.csproj" />
     <Project Path="tyuiu.denisovld.sprint2.Task0.V20/tyuiu.denisovld.sprint2.Task0.V20.csproj" />
+  </Folder>
+  <Folder Name="/task1/">
+    <Project Path="tyuiu.denisovld.sprint2.Task1.V9.Lib/tyuiu.denisovld.sprint2.Task1.V9.Lib.csproj" Id="f123d5a6-8a1b-4c35-904e-886971e0f2d3" />
+    <Project Path="tyuiu.denisovld.sprint2.Task1.V9.Test/tyuiu.denisovld.sprint2.Task1.V9.Test.csproj" Id="cce6f27a-c5e8-4720-9411-7a6f13518053" />
+    <Project Path="tyuiu.denisovld.sprint2.Task1.V9/tyuiu.denisovld.sprint2.Task1.V9.csproj" Id="79896e74-0bdd-429a-935e-dff305ad4843" />
   </Folder>
 </Solution>
