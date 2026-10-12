@@ -1,0 +1,44 @@
+using tyuiu.denisovld.sprint2.Task5.V10.Lib;
+
+namespace tyuiu.denisovld.sprint2.Task5.V10.Test
+{
+    public class DataServiceTest
+    {
+        [Fact]
+        public void Test1()
+        {
+            DataService ds = new DataService();
+            Assert.Equal("2001.12.14", ds.FindDateOfPreviousDay(2001, 12, 15));
+            Assert.Equal("2001.11.30", ds.FindDateOfPreviousDay(2001, 12, 1));
+            Assert.Equal("2001.10.31", ds.FindDateOfPreviousDay(2001, 11, 1));
+            Assert.Equal("2001.2.28", ds.FindDateOfPreviousDay(2001, 3, 1));
+            Assert.Equal("2000.12.31", ds.FindDateOfPreviousDay(2001, 1, 1));
+            Assert.Equal("2001.7.31", ds.FindDateOfPreviousDay(2001, 8, 1));
+            Assert.Equal("2000.12.31", ds.FindDateOfPreviousDay(2001, 1, 1));
+
+            Assert.Throws<ArgumentException>(() =>
+            {
+                ds.FindDateOfPreviousDay(2001, 13, 1);
+            });
+
+
+            Assert.Throws<ArgumentException>(() =>
+            {
+                ds.FindDateOfPreviousDay(2001, 11, -1);
+            });
+
+
+            Assert.Throws<ArgumentException>(() =>
+            {
+                ds.FindDateOfPreviousDay(2001, 0, 6);
+            });
+
+
+            Assert.Throws<ArgumentException>(() =>
+            {
+                ds.FindDateOfPreviousDay(2001, 11, 32);
+            });
+
+        }
+    }
+}
