@@ -34,4 +34,9 @@
     <Project Path="tyuiu.denisovld.sprint2.Task6.V3.Test/tyuiu.denisovld.sprint2.Task6.V3.Test.csproj" Id="91fb001d-59e0-4fe6-bb5e-a692551f29ef" />
     <Project Path="tyuiu.denisovld.sprint2.Task6.V3/tyuiu.denisovld.sprint2.Task6.V3.csproj" Id="f81ed160-ca45-4965-b70e-6a11e32af2d5" />
   </Folder>
+  <Folder Name="/task7/">
+    <Project Path="tyuiu.denisovld.sprint2.Task7.V3.Lib/tyuiu.denisovld.sprint2.Task7.V3.Lib.csproj" Id="5445e98a-a3f9-4e0b-b1d3-26984bc7b602" />
+    <Project Path="tyuiu.denisovld.sprint2.Task7.V3.Test/tyuiu.denisovld.sprint2.Task7.V3.Test.csproj" Id="caac2f85-59bc-41ba-8c0c-279663b90b0b" />
+    <Project Path="tyuiu.denisovld.sprint2.Task7.V3/tyuiu.denisovld.sprint2.Task7.V3.csproj" Id="713cc0d1-fb65-4cc4-8ea7-8a71af98f163" />
+  </Folder>
 </Solution>
