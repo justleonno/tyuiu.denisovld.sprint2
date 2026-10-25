@@ -1,9 +1,11 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using tyuiu.denisovld.sprint2.Task2.V1.Lib;
 namespace tyuiu.denisovld.sprint2.Task2.V1.Test
 {
-    using tyuiu.denisovld.sprint2.Task2.V1.Lib;
+    [TestClass]
     public class DataServiceTest
     {
-        [Fact]
+        [TestMethod]
         public void Test1()
         {
             DataService ds = new DataService();
@@ -11,7 +13,7 @@ namespace tyuiu.denisovld.sprint2.Task2.V1.Test
             int y = 8;
             bool lol = ds.CheckDotInShadedArea(x, y);
             bool exp = true;
-            Assert.Equal(exp, lol);
+            Assert.AreEqual(exp, lol);
 
 
         }

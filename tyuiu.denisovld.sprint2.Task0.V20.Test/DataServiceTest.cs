@@ -1,9 +1,11 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using tyuiu.denisovld.sprint2.Task0.V20.Lib;
 namespace tyuiu.denisovld.sprint2.Task0.V20.Test
 {
-    using tyuiu.denisovld.sprint2.Task0.V20.Lib;
+    [TestClass]
     public class DataServiceTest
     {
-        [Fact]
+        [TestMethod]
         public void Test1()
         {
             DataService ds = new DataService();
@@ -12,7 +14,7 @@ namespace tyuiu.denisovld.sprint2.Task0.V20.Test
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
             bool[] exp = new bool[6] { true, false, true, false, true, false };
-            Assert.Equal(res, exp);
+            CollectionAssert.AreEqual(res, exp);
 
         }
     }

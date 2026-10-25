@@ -1,57 +1,59 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using tyuiu.denisovld.sprint2.Task6.V3.Lib;
 namespace tyuiu.denisovld.sprint2.Task6.V3.Test
 {
+    [TestClass]
     public class DataServiceTest
     {
-        [Fact]
+        [TestMethod]
         public void Test1()
         {
             DataService ds = new DataService();
             string res = "Понедельник";
-            Assert.Equal(res, ds.FindDayName(1));
+            Assert.AreEqual(res, ds.FindDayName(1));
         }
-        [Fact]
+        [TestMethod]
         public void Test2()
         {
             DataService ds = new DataService();
             string res = "Вторник";
-            Assert.Equal(res, ds.FindDayName(2));
+            Assert.AreEqual(res, ds.FindDayName(2));
         }
-        [Fact]
+        [TestMethod]
         public void Test3()
         {
             DataService ds = new DataService();
             string res = "Среда";
-            Assert.Equal(res, ds.FindDayName(3));
+            Assert.AreEqual(res, ds.FindDayName(3));
         }
-        [Fact]
+        [TestMethod]
         public void Test4()
         {
             DataService ds = new DataService();
             string res = "Четверг";
-            Assert.Equal(res, ds.FindDayName(4));
+            Assert.AreEqual(res, ds.FindDayName(4));
 
         }
-        [Fact]
+        [TestMethod]
         public void Test5()
         {
             DataService ds = new DataService();
             string res = "Пятница";
-            Assert.Equal(res, ds.FindDayName(5));
+            Assert.AreEqual(res, ds.FindDayName(5));
         }
-        [Fact]
+        [TestMethod]
         public void Test6()
         {
             DataService ds = new DataService();
             string res = "Суббота";
-            Assert.Equal(res, ds.FindDayName(6));
+            Assert.AreEqual(res, ds.FindDayName(6));
         }
-        [Fact]
+        [TestMethod]
         public void Test7()
         {
             DataService ds = new DataService();
             string res = "Воскресенье";
-            Assert.Equal(res, ds.FindDayName(7));
+            Assert.AreEqual(res, ds.FindDayName(7));
         }
     }
 }
