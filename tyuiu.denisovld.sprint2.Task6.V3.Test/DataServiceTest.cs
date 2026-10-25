@@ -9,28 +9,28 @@ namespace tyuiu.denisovld.sprint2.Task6.V3.Test
         public void Test1()
         {
             DataService ds = new DataService();
-            string res = "Понедельник";
+            string res = "понедельник";
             Assert.AreEqual(res, ds.FindDayName(1));
         }
         [TestMethod]
         public void Test2()
         {
             DataService ds = new DataService();
-            string res = "Вторник";
+            string res = "вторник";
             Assert.AreEqual(res, ds.FindDayName(2));
         }
         [TestMethod]
         public void Test3()
         {
             DataService ds = new DataService();
-            string res = "Среда";
+            string res = "среда";
             Assert.AreEqual(res, ds.FindDayName(3));
         }
         [TestMethod]
         public void Test4()
         {
             DataService ds = new DataService();
-            string res = "Четверг";
+            string res = "четверг";
             Assert.AreEqual(res, ds.FindDayName(4));
 
         }
@@ -38,21 +38,21 @@ namespace tyuiu.denisovld.sprint2.Task6.V3.Test
         public void Test5()
         {
             DataService ds = new DataService();
-            string res = "Пятница";
+            string res = "пятница";
             Assert.AreEqual(res, ds.FindDayName(5));
         }
         [TestMethod]
         public void Test6()
         {
             DataService ds = new DataService();
-            string res = "Суббота";
+            string res = "суббота";
             Assert.AreEqual(res, ds.FindDayName(6));
         }
         [TestMethod]
         public void Test7()
         {
             DataService ds = new DataService();
-            string res = "Воскресенье";
+            string res = "воскресенье";
             Assert.AreEqual(res, ds.FindDayName(7));
         }
     }
