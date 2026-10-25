@@ -9,7 +9,7 @@ namespace tyuiu.denisovld.sprint2.Task3.V19.Lib
             double y = 0;
             if (x > 1)
             {
-                y = Math.Pow(x, 2) + (Math.Pow((x + 1), x) / (x - 1));
+                y = Math.Pow(x, 2) + Math.Pow((((x + 1) / (x - 1))), x);
             }
             else
             {
@@ -21,7 +21,7 @@ namespace tyuiu.denisovld.sprint2.Task3.V19.Lib
                 {
                     if ((x > -23) & (x < 2) & (x != 0))
                     {
-                        y = Math.Pow((1 + 1 / (Math.Pow(x, 2))), x);
+                        y = Math.Pow((1 + (1 / (Math.Pow(x, 2)))), x);
                     }
                     else
                     {
